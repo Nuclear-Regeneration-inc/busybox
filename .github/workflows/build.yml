@@ -13,3 +13,4 @@ jobs:
      - run: ls
      - run: mkdir bin
      - run: sudo make install bin
+     - run: cdc bin && ls && cd ..
