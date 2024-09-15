@@ -11,3 +11,5 @@ jobs:
      - run: make defconfig
      - run: make
      - run: ls
+     - run: mkdir bin
+     - run: sudo make install bin
