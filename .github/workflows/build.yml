@@ -13,4 +13,5 @@ jobs:
      - run: ls
      - run: mkdir bin
      - run: sudo make install bin
-     - run: cd bin && ls && cd ..
+     - run: cd bin
+     - run: ls
