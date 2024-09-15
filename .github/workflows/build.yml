@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v2
-     - run: apt-get update
-     - run: apt install make gcc
+     - run: sudo apt-get update
+     - run: sudo apt install make gcc
      - run: make menuconfig
      - run: make
