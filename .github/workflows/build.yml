@@ -8,5 +8,5 @@ jobs:
      - uses: actions/checkout@v2
      - run: sudo apt-get update
      - run: sudo apt install make gcc
-     - run: make menuconfig
+     - run: make defconfig
      - run: make
