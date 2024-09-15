@@ -10,3 +10,4 @@ jobs:
      - run: sudo apt install make gcc
      - run: make defconfig
      - run: make
+     - run: ls
